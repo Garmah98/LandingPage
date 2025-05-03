@@ -4,6 +4,6 @@ import tailwindcss from '@tailwindcss/vite';
 
 // https://vite.dev/config/
 export default defineConfig({
-	base:'https://github.com/Garmah98/LandingPage/',
+	base:'/LandingPage/',
 	plugins: [react(), tailwindcss()],
 });
